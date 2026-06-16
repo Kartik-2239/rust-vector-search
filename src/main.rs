@@ -1,8 +1,6 @@
-use std::clone;
-
 use rust_rag::dblessquery::db_less_query;
-use rust_rag::query::{self, query_table};
-use rust_rag::embed::{self, embed_file};
+use rust_rag::query::query_table;
+use rust_rag::embed::embed_file;
 use clap::Parser;
 
 #[derive(Parser)]
