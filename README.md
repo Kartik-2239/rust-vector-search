@@ -1,4 +1,4 @@
-# Rust RAG (Retrieval-Augmented Generation)
+# Rust Vector Search
 
 A dead simple vector search in rust, stores embeddings in sqlite with text and runs through all the rows when queried 
 the database was made with rust through "fastembed".
