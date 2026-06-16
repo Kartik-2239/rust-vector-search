@@ -1,0 +1,11 @@
+[package]
+name = "rust_rag"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+fastembed = "5.16.1"
+anyhow = "1.0"
+rusqlite = { version = "0.40.1", features = ["bundled"] }
+bincode = "2.0.0"
+clap = {version = "4.6.1", features = ["derive"]}

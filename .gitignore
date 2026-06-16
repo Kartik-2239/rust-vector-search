@@ -1,0 +1,4 @@
+/target
+rag.db
+complete_summary.txt
+.fastembed_cache
